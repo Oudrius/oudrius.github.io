@@ -1,0 +1,96 @@
+body {
+    background-color: #202124;
+}
+
+header {
+    width: 100%;
+    text-align: end;
+    height: 48px;
+    margin-top: 15px;
+    margin-left: -15px;
+    a {
+        color: white;
+        font-family: Arial;
+        font-size: 13px;
+        text-decoration: none;
+        display: inline-block;
+        line-height: 27px;
+        vertical-align: middle;
+        margin-left: 10px;
+        img {
+            vertical-align: middle;
+        }
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+#products_menu {
+    filter: invert(97%) sepia(78%) saturate(493%) hue-rotate(274deg) brightness(123%) contrast(100%);
+    margin-left: 20px;
+}
+
+#profile_menu {
+    border-radius: 50%;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+}
+
+#text_area {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 582px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    #text_area_inner {
+    display: flex;
+    background-color: transparent;
+    border: 1px solid #5f6368;
+    border-radius: 24px;
+    height: 46px;
+    align-items: center;
+    justify-content: space-between;
+        svg {
+            width: 20px;
+            height: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            filter: invert(69%) sepia(8%) saturate(251%) hue-rotate(169deg) brightness(91%) contrast(88%);
+        }
+        #search {
+            display: flex;
+            margin-left: 10px;
+            width: 70%;
+        }
+        #search_svg {
+            display: flex;
+        }
+        #svg_div {
+            display: flex;
+            margin-left: auto;
+        }
+    }
+    #text_area_inner:hover {
+        background-color: #303134 !important;
+        border: none !important;
+    }
+
+    input{
+        background-color: transparent;
+        border: none;
+        line-height: 27px;
+        outline: none;
+        color: white;
+        caret-color: white;
+    }
+}
