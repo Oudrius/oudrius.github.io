@@ -20,11 +20,22 @@ header h1 {
 
 #top_bar {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
+#right_corner {
+  display: flex;
+  align-items: center;
+}
 #right_corner a {
   padding-left: 10px;
+  text-decoration: none;
+  color: #4d5156;
+  font-size: 14px;
+}
+#right_corner a:hover {
+  text-decoration: underline;
 }
 
 main {
