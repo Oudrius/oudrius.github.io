@@ -124,6 +124,10 @@ header a:hover {
   border: 1px solid #5f6368;
 }
 
+#hidden_submit {
+  visibility: hidden;
+}
+
 #language {
   display: flex;
   justify-content: center;

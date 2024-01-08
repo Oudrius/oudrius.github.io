@@ -126,6 +126,10 @@ header {
     }
 }
 
+#hidden_submit {
+    visibility: hidden;
+}
+
 #language {
     display: flex;
     justify-content: center;
