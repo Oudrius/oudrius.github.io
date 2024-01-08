@@ -23,9 +23,6 @@ header a {
 header a img {
   vertical-align: middle;
 }
-header a img:hover {
-  background-color: rgba(232, 234, 237, 0.08);
-}
 header a:hover {
   text-decoration: underline;
 }
@@ -44,6 +41,11 @@ header a:hover {
   flex-direction: column;
   align-items: center;
   margin-top: 20%;
+}
+#logo #images_text {
+  color: #4487f6;
+  margin-left: 220px;
+  margin-top: -20px;
 }
 
 #text_area {
@@ -83,6 +85,10 @@ header a:hover {
 #text_area #text_area_inner #svg_div {
   display: flex;
   margin-left: auto;
+}
+#text_area #text_area_inner #magnifying {
+  fill: #8ab4f8;
+  filter: none;
 }
 #text_area #text_area_inner:hover {
   background-color: #303134 !important;
