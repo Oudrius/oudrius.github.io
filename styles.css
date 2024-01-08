@@ -1,6 +1,7 @@
 body {
   background-color: #202124;
   margin: 0;
+  font-family: arial, sans-serif;
 }
 
 header {
@@ -12,7 +13,6 @@ header {
 }
 header a {
   color: white;
-  font-family: arial, sans-serif;
   font-size: 13px;
   text-decoration: none;
   display: inline-block;
@@ -103,7 +103,8 @@ header a:hover {
   gap: 10px;
 }
 #form_submit input {
-  font-family: arial, sans-serif;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
   font-size: 14px;
   color: white;
   background-color: #303134;
@@ -122,7 +123,6 @@ header a:hover {
   justify-content: center;
   color: #bdc1c6;
   font-size: small;
-  font-family: arial, sans-serif;
   margin-top: 10px;
 }
 #language a {
@@ -160,7 +160,6 @@ footer #footer_links {
 footer #footer_links a {
   text-decoration: none;
   color: #e8eaed;
-  font-family: arial, sans-serif;
   padding: 15px;
   font-size: 14px;
 }
